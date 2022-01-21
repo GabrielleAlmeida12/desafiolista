@@ -1,0 +1,83 @@
+body {
+    text-align: center;
+    margin: 0;
+    background-repeat: no-repeat;
+    background: rgb(135, 107, 141)
+   
+  }
+  
+  h2 {
+    font-size: 40px;
+    color: rgb(64, 43, 83);
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    justify-content: center;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  input {
+    margin: 20px;
+    border:2px solid rgb(135, 107, 141);
+    height: 26px;
+    border-radius: 4px;
+    background-color: rgb(226, 202, 233);
+  }
+  
+  ul {
+    margin: 20px;
+    width: 250px;
+    font-weight: 600;
+      border-radius: 20px;
+    padding-bottom: 10px;
+    border: solid 2px rgb(235, 155, 235);
+  }
+
+  
+  .icon {
+    margin: 0px;
+    width: 20%;
+    color:rgb(41, 20, 66)
+  }
+  
+  button {
+    cursor: pointer;
+    background-color: rgb(41, 20, 66);
+    color: seashell;
+    width: 90px;
+    height: 30px;
+  }
+
+  button:hover {
+    background-color: rgb(72, 49, 94);
+  }
+
+  .container {
+    padding:0 500px
+  }
+
+  th {
+    padding:0 10px;
+    border-radius: 20px;
+    background-color: rgb(230, 221, 221);
+  }
+
+  th:hover {
+    background-color: rgb(29, 9, 41);
+    color: white;
+  }
+
+  .topo {
+    height: 80px;
+    background: url(imagens/fundo.jpg.jpg) repeat-x;
+    margin: solid 2px red;
+  }
